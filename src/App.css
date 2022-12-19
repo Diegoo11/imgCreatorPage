@@ -1,8 +1,13 @@
 #root {
-  max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
   text-align: center;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: min(6vh, 60px);
 }
 
 .logo {
@@ -18,11 +23,11 @@
 }
 
 .card {
-  padding: 2em;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 30px;
+  max-width: 85vw;
 }
 
 .btnSearch  {
@@ -35,8 +40,21 @@
   font-size: 1.5rem;
   border: solid 3px #999;
   border-radius: 15px;
+  max-width: 80vw;
 }
 
 .read-the-docs {
   color: #888;
+}
+
+.boxImages {
+  display: flex;
+  max-width: 90vw;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgGenered {
+  width: 330px;
 }
